@@ -1,0 +1,38 @@
+
+
+# creating a new branch called fea
+# create a newfile named as file2.txt
+# now edit the files and commit changes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
