@@ -5,6 +5,8 @@ create a new file..
 2.create a new file in dev branch named as "newfile" ..
 3.we can push it into remote master (or) we push it dev branch and merge it to master branch..
 4.pull --->make changes in remote and commit once..in local there is no update then we use git pull and then merge push..
+5.commit changes in remote specific branch and use git pull in same local branch 
+                                               use git pull origin branchname in diff local branch
 
 
 
