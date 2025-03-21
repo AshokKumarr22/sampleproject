@@ -3,8 +3,10 @@
 # now edit the files and commit changes 
 # now push to fea branch and merge it into local dev branch and then push into remote dev
 # here the commits done in fea and dev branch
-# now we modify changes in remote dev branch and pull it in fea branch
-
+# now we modify changes in remote dev branch and pull it in local fea branch
+# now merge it from dev and push it into fea
+# Now the commits done in fea and dev branches
+# switch to master branch and merge ,push to master
 
 
 
