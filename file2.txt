@@ -1,8 +1,9 @@
-
-
 # creating a new branch called fea
 # create a newfile named as file2.txt
-# now edit the files and commit changes
+# now edit the files and commit changes 
+# now push to fea branch and merge it into local dev branch and then push into remote dev
+# here the commits done in fea and dev branch
+# now we modify changes in remote dev branch and pull it in fea branch
 
 
 
