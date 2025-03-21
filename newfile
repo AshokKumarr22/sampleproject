@@ -5,8 +5,7 @@
 create a new file..
 1.create a new branch named as dev and make changes and then push..
 2.create a new file in dev branch named as "newfile" ..
-3.we can find newfile in dev branch cant find it master branch..
-4.we can push it into remote master (or) we push it dev branch and merge it to master branch
+3.we can push it into remote master (or) we push it dev branch and merge it to master branch
 
 
 
