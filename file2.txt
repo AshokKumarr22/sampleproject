@@ -15,7 +15,6 @@ git commits(remote fea) --> git pull(local fea) --> git merge --> git push (remo
 
 git pull origin branchname - pull to different branch
 -------
-
 git commits(remote fea) --> git pull(local dev) --> git merge fea--> git push (remot dev) --> git switch,merge ,push
 
 
