@@ -1,0 +1,21 @@
+pipeline{
+    agent any
+
+    tools {
+         maven 'maven-mvn'
+         jdk 'jdk-21'
+    }
+
+    stages{
+        stage('checkout'){
+            steps{
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'AshokKumarr22-git-access', url: 'https://github.com/AshokKumarr22/sampleproject.git']]])
+            }
+        }
+        stage('build'){
+            steps{
+               bat 'mvn package'
+            }
+        }
+    }
+}
