@@ -16,7 +16,7 @@ pipeline{
             steps{
                sh 'mvn clean install'
                sh 'ls -al'
-               sh 'ls -al'/'target'
+               sh 'ls -al target'
                sh 'pwd '
             }
         }
