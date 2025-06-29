@@ -14,11 +14,10 @@ pipeline{
         }
         stage('BUILD'){
             steps{
-               sh '''mvn clean install
-                     ls -al
-                     ls -al/target
-                     pwd
-              '''
+               sh 'mvn clean install'
+               sh 'ls -al'
+               sh 'ls -al'/'target'
+               sh 'pwd '
             }
         }
     }
