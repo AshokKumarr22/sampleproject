@@ -7,12 +7,12 @@ pipeline{
     }
 
     stages{
-        stage('checkout'){
+        stage('GIT CHECKOUT'){
             steps{
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'AshokKumarr22-git-access', url: 'https://github.com/AshokKumarr22/sampleproject.git']]])
+               git credentialsId: 'AshokKumarr22-git-access', url: 'https://github.com/AshokKumarr22/sampleproject.git'
             }
         }
-        stage('build'){
+        stage('BUILD'){
             steps{
                sh 'mvn clean install'
             }
