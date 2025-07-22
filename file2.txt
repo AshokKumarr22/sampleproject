@@ -9,6 +9,7 @@
 # switch to master branch and merge ,push to master
 
 
+
 git pull - pull to same branch
 --------
 git commits(remote fea) --> git pull(local fea) --> git merge --> git push (remot fea) --> git switch,merge ,push
