@@ -5,6 +5,9 @@ pipeline{
          maven 'maven-mvn'
          jdk 'jdk-21'
     }
+    triggers {
+        githubPush() // Triggers the build when a push is made to GitHub
+    }
 
     stages{
         stage('GIT CHECKOUT'){
@@ -25,5 +28,10 @@ pipeline{
               sh 'mvn test'
            }
        }
+        stage('Archive WAR') {
+            steps {
+                archiveArtifacts artifacts: 'target/*.war', fingerprint: true
+            }
+        }
   }
 }
